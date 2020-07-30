@@ -1,10 +1,10 @@
 {
   "SnippetId": "b70e194d-59a5-4b30-8e15-57d168dfb973",
-  "SnippetName": "test snippet",
+  "SnippetName": "test snippet1",
   "SnippetAuthor": "abitha",
   "ReleaseDateVersion": "07/30/2020 07:13:26",
   "SnippetModifiedBy": "abitha",
-  "SnippetModifiedDate": "07/30/2020 07:13:26",
+  "SnippetModifiedDate": "07/30/2020 07:13:38",
   "Description": "This snippet is created for testing purpose",
   "Snippet": "  hosts: localhost\n  gather_facts: no\n  connection: local"
 }
