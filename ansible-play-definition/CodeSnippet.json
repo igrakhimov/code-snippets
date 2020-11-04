@@ -1,0 +1,10 @@
+{
+  "SnippetId": "b70e194d-59a5-4b30-8e15-57d168dfb973",
+  "SnippetName": "Ansible Play definition",
+  "SnippetAuthor": "abitha",
+  "ReleaseDateVersion": "07/30/2020 07:13:26",
+  "SnippetModifiedBy": "neilcross",
+  "SnippetModifiedDate": "11/04/2020 04:46:51",
+  "Description": "A simple Ansible Play initialisation",
+  "Snippet": "  hosts: localhost\n  gather_facts: no\n  connection: local\n  "
+}
