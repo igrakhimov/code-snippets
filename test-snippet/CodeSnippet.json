@@ -3,8 +3,8 @@
   "SnippetName": "test snippet",
   "SnippetAuthor": "abitha",
   "ReleaseDateVersion": "08/27/2020 05:27:10",
-  "SnippetModifiedBy": "abitha",
-  "SnippetModifiedDate": "08/27/2020 05:27:10",
+  "SnippetModifiedBy": "neilcross",
+  "SnippetModifiedDate": "11/04/2020 04:50:07",
   "Description": "This is test snippet - Dfly",
-  "Snippet": "---\n- name: show which host failed 2\n  hosts: all\n  gather_facts: no\n  connection: local\n\n  tasks:\n\n  - name: show failed hosts\n    debug:\n      msg: \u0022{{inventory_hostname}}\u0022"
+  "Snippet": "  - name: show debug message\n    debug:\n      msg: \u0022Hello from {{inventory_hostname}}\u0022"
 }
