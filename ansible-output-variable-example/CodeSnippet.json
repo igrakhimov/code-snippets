@@ -1,0 +1,10 @@
+{
+  "SnippetId": "8b64337f-0733-4184-9a1e-ac323a664e18",
+  "SnippetName": "Ansible output variable example",
+  "SnippetAuthor": "neilcross",
+  "ReleaseDateVersion": "11/04/2020 04:43:19",
+  "SnippetModifiedBy": "neilcross",
+  "SnippetModifiedDate": "11/04/2020 04:43:19",
+  "Description": "A sample snippet for defining execution variables with Ansible",
+  "Snippet": "    - name: make data available to rest of flow\r\n      set_stats:\r\n        data:\r\n          num_settable: 99.9\r\n          int_stat: 42 \r\n          float_stat: 4.2\r\n          true_stat: true\r\n          string_stat: \u0027this is a string\u0027\r\n          list_stat:\r\n            - \u0027hello\u0027\r\n            - \u0027world\u0027"
+}
