@@ -1,0 +1,10 @@
+{
+  "SnippetId": "ac02cfea-1cef-42db-a06b-c979ed01416c",
+  "SnippetName": "my userful snippet",
+  "SnippetAuthor": "marcos",
+  "ReleaseDateVersion": "11/10/2020 23:25:39",
+  "SnippetModifiedBy": "marcos",
+  "SnippetModifiedDate": "11/10/2020 23:25:39",
+  "Description": "sdfsdfsdf",
+  "Snippet": " - name:\n      ios_command:\n        commands: \u0022{{ command_to_run }}\u0022\n      register: output"
+}
